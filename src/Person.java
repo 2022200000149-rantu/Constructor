@@ -6,9 +6,13 @@ public class Person {
     private String email;
     private String password;
 // Constructors
+    
+        //Default constructor
     public Person () {
 
     }
+
+        // Parameterised Constructor method
     public Person (String id, String name, int age, String dateOfBirth, String email, String password) {
         this.id = id;
         this.name = name;
