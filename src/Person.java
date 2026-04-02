@@ -22,6 +22,8 @@ public class Person {
         this.password = password;
     }
 
+// Setters and Getters 
+
     public void setId (String id) {
         this.id = id;
     }
@@ -57,7 +59,8 @@ public class Person {
         this.password = password;
     }
     public String getPassword () {return password;}
-
+    
+// Method (song)
     public void song () {
         IO.println("Amar hiyar majh a");
     }
